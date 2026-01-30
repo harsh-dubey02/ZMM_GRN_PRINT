@@ -1,0 +1,26 @@
+managed implementation in class zbp_i_grn_print unique;
+strict ( 2 );
+
+define behavior for ZI_GRN_PRINT alias zi_comm_doc
+with unmanaged save
+lock master
+authorization master ( instance )
+{
+
+
+  //  create ( authorization : global );
+  update;
+  //  delete;
+
+  action ( features : instance ) ZPRINT result [1] $self;
+  field ( readonly ) materialdocument, postingdate,StorageLocation,materialdocumentyear;
+
+  mapping for ztb_grn_print
+    {
+      postingdate     = PostingDate;
+      storagelocation = StorageLocation;
+
+
+      //      base64_3    = base64_3;
+    }
+}

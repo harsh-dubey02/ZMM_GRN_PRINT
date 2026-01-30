@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "RM/PM GRN Print Application"
+  },
+  "ui5AppDetails": {
+    "appId": "zmmgrnprintnew"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_8C3326EB2B98AF4E78D4F6E7719EE36EDC483619_TM",
+    "semanticObject": "zo_grn_print_new",
+    "action": "print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_8C3326EB2B98AF4E78D4F6E7719EE36EDC483619_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "RM/PM GRN Print Application",
+        "icon": "sap-icon://legend"
+      }
+    }
+  ]
+}

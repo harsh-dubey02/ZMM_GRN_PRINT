@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition GRN_Print'
+define service ZSD_GRN_PRINT {
+  expose ZC_GRN_PRINT;
+}
